@@ -145,15 +145,6 @@
       <useProjectArtifact>false</useProjectArtifact>
       <useProjectAttachments>false</useProjectAttachments>
     </dependencySet>
-    <dependencySet>
-      <outputDirectory>webapps</outputDirectory>
-      <includes>
-        <include>org.exoplatform.commons:commons-component-search-portlet:war</include>
-      </includes>
-      <outputFileNameMapping>unified-search.war</outputFileNameMapping>
-      <useProjectArtifact>false</useProjectArtifact>
-      <useProjectAttachments>false</useProjectAttachments>
-    </dependencySet>
 
     <!-- Social wars -->
     <dependencySet>
@@ -397,6 +388,15 @@
         <include>org.exoplatform.platform:platform-server-tomcat-integration-webapp:war</include>
       </includes>
       <outputFileNameMapping>integration.war</outputFileNameMapping>
+      <useProjectArtifact>false</useProjectArtifact>
+      <useProjectAttachments>false</useProjectAttachments>
+    </dependencySet>
+    <dependencySet>
+      <outputDirectory>webapps</outputDirectory>
+      <includes>
+        <include>org.exoplatform.integration:integ-search-portlet:war</include>
+      </includes>
+      <outputFileNameMapping>unified-search.war</outputFileNameMapping>
       <useProjectArtifact>false</useProjectArtifact>
       <useProjectAttachments>false</useProjectAttachments>
     </dependencySet>
