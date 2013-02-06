@@ -197,6 +197,15 @@
     <dependencySet>
       <outputDirectory>webapps</outputDirectory>
       <includes>
+        <include>org.exoplatform.ecms:ecms-ext-fastcontentcreator-portlet:war</include>
+      </includes>
+      <outputFileNameMapping>fastcontentcreator.war</outputFileNameMapping>
+      <useProjectArtifact>false</useProjectArtifact>
+      <useProjectAttachments>false</useProjectAttachments>
+    </dependencySet>
+    <dependencySet>
+      <outputDirectory>webapps</outputDirectory>
+      <includes>
         <include>org.exoplatform.ecms:ecms-core-webapp:war</include>
       </includes>
       <outputFileNameMapping>ecm-wcm-core.war</outputFileNameMapping>
@@ -414,6 +423,15 @@
     <dependencySet>
       <outputDirectory>webapps</outputDirectory>
       <includes>
+        <include>org.exoplatform.platform:platform-extension-portlets-homepage:war</include>
+      </includes>
+      <outputFileNameMapping>homepage-portlets.war</outputFileNameMapping>
+      <useProjectArtifact>false</useProjectArtifact>
+      <useProjectAttachments>false</useProjectAttachments>
+    </dependencySet>
+    <dependencySet>
+      <outputDirectory>webapps</outputDirectory>
+      <includes>
         <include>org.exoplatform.platform:platform-extension-resources:war</include>
       </includes>
       <outputFileNameMapping>eXoPlatformResources.war</outputFileNameMapping>
@@ -611,6 +629,8 @@
         <exclude>org.jboss.logging:jboss-logging-spi</exclude>
         <!-- This artifact is in conflict with the one under org.codehaus.woodstox:woodstox-core-asl -->
         <exclude>org.codehaus.woodstox:wstx-asl</exclude>
+        <!-- No Springframework in the package -->
+        <exclude>org.springframework*:*</exclude>
         <!-- These are provided APIs by Java itself or the app server -->
         <exclude>xml-apis:*</exclude>
         <exclude>org.apache.geronimo.specs:geronimo-stax-api_1.0_spec</exclude>

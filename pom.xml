@@ -275,6 +275,16 @@
     </dependency>
     <dependency>
       <groupId>org.exoplatform.ecms</groupId>
+      <artifactId>ecms-ext-fastcontentcreator-portlet</artifactId>
+      <type>war</type>
+    </dependency>
+    <dependency>
+      <groupId>org.exoplatform.ecms</groupId>
+      <artifactId>ecms-ext-fastcontentcreator-portlet</artifactId>
+      <type>pom</type>
+    </dependency>
+    <dependency>
+      <groupId>org.exoplatform.ecms</groupId>
       <artifactId>ecms-packaging-wcm-webapp</artifactId>
       <type>war</type>
     </dependency>
@@ -388,6 +398,16 @@
           <artifactId>platform-welcome-screens-webapp</artifactId>
           <type>pom</type>
       </dependency>
+    <dependency>
+      <groupId>org.exoplatform.platform</groupId>
+      <artifactId>platform-extension-portlets-homepage</artifactId>
+      <type>war</type>
+    </dependency>
+    <dependency>
+      <groupId>org.exoplatform.platform</groupId>
+      <artifactId>platform-extension-portlets-homepage</artifactId>
+      <type>pom</type>
+    </dependency>
     <dependency>
       <groupId>org.exoplatform.platform</groupId>
       <artifactId>platform-extension-resources</artifactId>
@@ -721,6 +741,8 @@
                     <exclude>org.jboss.logging:jboss-logging-spi</exclude>
                     <!-- This artifact is in conflict with the one under org.codehaus.woodstox:woodstox-core-asl -->
                     <exclude>org.codehaus.woodstox:wstx-asl</exclude>
+                    <!-- No Springframework in the package -->
+                    <exclude>org.springframework*:*</exclude>
                     <!-- These are provided APIs by Java itself or the app server -->
                     <exclude>xml-apis:*</exclude>
                     <exclude>org.apache.geronimo.specs:geronimo-stax-api_1.0_spec</exclude>
