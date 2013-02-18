@@ -517,6 +517,17 @@
       <useProjectAttachments>false</useProjectAttachments>
     </dependencySet>
 
+    <!-- Platform Extension IDE wars -->
+    <dependencySet>
+      <outputDirectory>webapps</outputDirectory>
+      <includes>
+        <include>org.exoplatform.platform:platform-component-ide-extension-webapp:war</include>
+      </includes>
+      <outputFileNameMapping>ide-extension.war</outputFileNameMapping>
+      <useProjectArtifact>false</useProjectArtifact>
+      <useProjectAttachments>false</useProjectAttachments>
+    </dependencySet>
+
     <!-- Platform DEFAULT website wars -->
     <dependencySet>
       <outputDirectory>webapps</outputDirectory>
