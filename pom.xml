@@ -189,6 +189,10 @@
       <type>pom</type>
     </dependency>
     <dependency>
+        <groupId>org.exoplatform.commons</groupId>
+        <artifactId>commons-api</artifactId>
+      </dependency>    
+      <dependency>
       <groupId>org.exoplatform.ecms</groupId>
       <artifactId>ecms-apps-gadget-publication</artifactId>
       <type>war</type>
@@ -378,6 +382,20 @@
       <artifactId>exo-ide-client-gadget</artifactId>
       <type>war</type>
     </dependency>
+    <dependency>
+      <groupId>org.exoplatform.integration</groupId>
+      <artifactId>integ-search-service</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.exoplatform.integration</groupId>
+      <artifactId>integ-search-portlet</artifactId>
+      <type>war</type>
+    </dependency>
+    <dependency>
+      <groupId>org.exoplatform.integration</groupId>
+      <artifactId>integ-search-portlet</artifactId>
+      <type>pom</type>
+    </dependency>
     <!-- used by org.gatein.portal:exo.portal.web.portal and org.gatein.portal:exo.portal.web.rest but not declared -->
     <dependency>
       <groupId>org.exoplatform.jcr</groupId>
@@ -395,6 +413,16 @@
     </dependency>
     <dependency>
       <groupId>org.exoplatform.platform</groupId>
+      <artifactId>platform-extension-portlet-branding</artifactId>
+      <type>war</type>
+    </dependency>
+    <dependency>
+      <groupId>org.exoplatform.platform</groupId>
+      <artifactId>platform-extension-portlet-branding</artifactId>
+      <type>pom</type>
+    </dependency>
+    <dependency>
+      <groupId>org.exoplatform.platform</groupId>
       <artifactId>platform-extension-portlets-platformNavigation</artifactId>
       <type>war</type>
     </dependency>
@@ -503,6 +531,16 @@
       <artifactId>platform-sample-gadgets-sample-gadgets</artifactId>
       <type>pom</type>
     </dependency>
+    <dependency>
+       <groupId>org.exoplatform.platform</groupId>
+       <artifactId>platform-component-ide-extension-webapp</artifactId>
+        <type>war</type>
+    </dependency>
+    <dependency>
+        <groupId>org.exoplatform.platform</groupId>
+        <artifactId>platform-component-ide-extension-webapp</artifactId>
+        <type>pom</type>
+     </dependency>
     <dependency>
       <groupId>org.exoplatform.platform</groupId>
       <artifactId>platform-server-tomcat-integration-webapp</artifactId>
