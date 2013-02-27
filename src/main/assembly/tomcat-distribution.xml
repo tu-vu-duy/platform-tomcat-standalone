@@ -400,6 +400,15 @@
       <useProjectArtifact>false</useProjectArtifact>
       <useProjectAttachments>false</useProjectAttachments>
     </dependencySet>
+    <dependencySet>
+      <outputDirectory>webapps</outputDirectory>
+      <includes>
+        <include>org.exoplatform.integration:integ-search-portlet:war</include>
+      </includes>
+      <outputFileNameMapping>unified-search.war</outputFileNameMapping>
+      <useProjectArtifact>false</useProjectArtifact>
+      <useProjectAttachments>false</useProjectAttachments>
+    </dependencySet>
 
     <!-- Platform wars -->
     <dependencySet>
@@ -408,6 +417,15 @@
         <include>org.exoplatform.platform:platform-server-tomcat-root-webapp:war</include>
       </includes>
       <outputFileNameMapping>ROOT.war</outputFileNameMapping>
+      <useProjectArtifact>false</useProjectArtifact>
+      <useProjectAttachments>false</useProjectAttachments>
+    </dependencySet>
+    <dependencySet>
+      <outputDirectory>webapps</outputDirectory>
+      <includes>
+        <include>org.exoplatform.platform:platform-extension-portlet-branding:war</include>
+      </includes>
+      <outputFileNameMapping>platform-branding.war</outputFileNameMapping>
       <useProjectArtifact>false</useProjectArtifact>
       <useProjectAttachments>false</useProjectAttachments>
     </dependencySet>
@@ -504,6 +522,17 @@
         <include>org.exoplatform.ide:exo-ide-client-gadget:war</include>
       </includes>
       <outputFileNameMapping>IDE.war</outputFileNameMapping>
+      <useProjectArtifact>false</useProjectArtifact>
+      <useProjectAttachments>false</useProjectAttachments>
+    </dependencySet>
+
+    <!-- Platform Extension IDE wars -->
+    <dependencySet>
+      <outputDirectory>webapps</outputDirectory>
+      <includes>
+        <include>org.exoplatform.platform:platform-component-ide-extension-webapp:war</include>
+      </includes>
+      <outputFileNameMapping>ide-extension.war</outputFileNameMapping>
       <useProjectArtifact>false</useProjectArtifact>
       <useProjectAttachments>false</useProjectAttachments>
     </dependencySet>
