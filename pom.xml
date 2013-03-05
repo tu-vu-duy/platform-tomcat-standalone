@@ -417,6 +417,16 @@
       <artifactId>platform-extension-portlets-platformNavigation</artifactId>
       <type>pom</type>
     </dependency>
+      <dependency>
+          <groupId>org.exoplatform.platform</groupId>
+          <artifactId>platform-welcome-screens-webapp</artifactId>
+          <type>war</type>
+      </dependency>
+      <dependency>
+          <groupId>org.exoplatform.platform</groupId>
+          <artifactId>platform-welcome-screens-webapp</artifactId>
+          <type>pom</type>
+      </dependency>
     <dependency>
       <groupId>org.exoplatform.platform</groupId>
       <artifactId>platform-extension-portlets-homepage</artifactId>
@@ -485,16 +495,6 @@
     <dependency>
       <groupId>org.exoplatform.platform</groupId>
       <artifactId>platform-sample-acme-website-webapp</artifactId>
-      <type>pom</type>
-    </dependency>
-    <dependency>
-      <groupId>org.exoplatform.platform</groupId>
-      <artifactId>platform-sample-default-website-webapp</artifactId>
-      <type>war</type>
-    </dependency>
-    <dependency>
-      <groupId>org.exoplatform.platform</groupId>
-      <artifactId>platform-sample-default-website-webapp</artifactId>
       <type>pom</type>
     </dependency>
     <dependency>
