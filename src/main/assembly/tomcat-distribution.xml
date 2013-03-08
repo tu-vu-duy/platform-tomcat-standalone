@@ -537,17 +537,6 @@
       <useProjectAttachments>false</useProjectAttachments>
     </dependencySet>
 
-    <!-- Platform WAI Portal Template wars -->
-    <dependencySet>
-      <outputDirectory>webapps</outputDirectory>
-      <includes>
-        <include>org.exoplatform.ecms:ecms-apps-wai-template:war</include>
-      </includes>
-      <outputFileNameMapping>ecm-template-waiportal.war</outputFileNameMapping>
-      <useProjectArtifact>false</useProjectArtifact>
-      <useProjectAttachments>false</useProjectAttachments>
-    </dependencySet>
-
     <!-- Platform ACME website wars -->
     <dependencySet>
       <outputDirectory>webapps</outputDirectory>
@@ -578,6 +567,17 @@
       <useProjectArtifact>false</useProjectArtifact>
       <useProjectAttachments>false</useProjectAttachments>
     </dependencySet>
+
+    <!-- Platform WAI Template Site wars  -->
+     <dependencySet>
+        <outputDirectory>webapps</outputDirectory>
+        <includes>
+           <include>org.exoplatform.platform:platform-sample-wai-template:war</include>
+        </includes>
+        <outputFileNameMapping>platform-template-waiportal.war</outputFileNameMapping>
+        <useProjectArtifact>false</useProjectArtifact>
+        <useProjectAttachments>false</useProjectAttachments>
+     </dependencySet>
 
     <!-- Platform INTRANET website wars -->
     <dependencySet>

@@ -264,16 +264,6 @@
     </dependency>
     <dependency>
       <groupId>org.exoplatform.ecms</groupId>
-      <artifactId>ecms-apps-wai-template</artifactId>
-      <type>war</type>
-    </dependency>
-    <dependency>
-      <groupId>org.exoplatform.ecms</groupId>
-      <artifactId>ecms-apps-wai-template</artifactId>
-      <type>pom</type>
-    </dependency>
-    <dependency>
-      <groupId>org.exoplatform.ecms</groupId>
       <artifactId>ecms-core-webapp</artifactId>
       <type>war</type>
     </dependency>
@@ -491,6 +481,16 @@
       <artifactId>platform-sample-acme-intranet-webapp</artifactId>
       <type>pom</type>
     </dependency>
+     <dependency>
+        <groupId>org.exoplatform.platform</groupId>
+        <artifactId>platform-sample-wai-template</artifactId>
+        <type>war</type>
+     </dependency>
+     <dependency>
+        <groupId>org.exoplatform.platform</groupId>
+        <artifactId>platform-sample-wai-template</artifactId>
+        <type>pom</type>
+     </dependency>
     <dependency>
       <groupId>org.exoplatform.platform</groupId>
       <artifactId>platform-sample-acme-website-resources</artifactId>
