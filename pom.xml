@@ -63,6 +63,18 @@
         <type>pom</type>
         <scope>import</scope>
       </dependency>
+      <!-- Define version for platform-ui artifacts -->
+      <dependency>
+        <groupId>org.exoplatform.platform-ui</groupId>
+        <artifactId>platform-ui-web-eXoResources</artifactId>
+        <version>${org.exoplatform.platform.version}</version>
+        <type>war</type>
+      </dependency>
+      <dependency>
+        <groupId>org.exoplatform.platform-ui</groupId>
+        <artifactId>platform-ui-webui-core</artifactId>
+        <version>${org.exoplatform.platform.version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
   <dependencies>
@@ -246,16 +258,6 @@
     <dependency>
       <groupId>org.exoplatform.ecms</groupId>
       <artifactId>ecms-apps-resources-wcm</artifactId>
-      <type>pom</type>
-    </dependency>
-    <dependency>
-      <groupId>org.exoplatform.ecms</groupId>
-      <artifactId>ecms-apps-wai-template</artifactId>
-      <type>war</type>
-    </dependency>
-    <dependency>
-      <groupId>org.exoplatform.ecms</groupId>
-      <artifactId>ecms-apps-wai-template</artifactId>
       <type>pom</type>
     </dependency>
     <dependency>
@@ -477,6 +479,16 @@
       <artifactId>platform-sample-acme-intranet-webapp</artifactId>
       <type>pom</type>
     </dependency>
+     <dependency>
+        <groupId>org.exoplatform.platform</groupId>
+        <artifactId>platform-sample-wai-template</artifactId>
+        <type>war</type>
+     </dependency>
+     <dependency>
+        <groupId>org.exoplatform.platform</groupId>
+        <artifactId>platform-sample-wai-template</artifactId>
+        <type>pom</type>
+     </dependency>
     <dependency>
       <groupId>org.exoplatform.platform</groupId>
       <artifactId>platform-sample-acme-website-resources</artifactId>
@@ -589,9 +601,13 @@
       <type>war</type>
     </dependency>
     <dependency>
-      <groupId>org.gatein.portal</groupId>
-      <artifactId>exo.portal.web.eXoResources</artifactId>
+      <groupId>org.exoplatform.platform-ui</groupId>
+      <artifactId>platform-ui-web-eXoResources</artifactId>
       <type>war</type>
+    </dependency>
+    <dependency>
+      <groupId>org.exoplatform.platform-ui</groupId>
+      <artifactId>platform-ui-webui-core</artifactId>
     </dependency>
     <dependency>
       <groupId>org.gatein.portal</groupId>
