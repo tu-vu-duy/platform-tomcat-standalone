@@ -187,10 +187,10 @@
       <type>pom</type>
     </dependency>
     <dependency>
-        <groupId>org.exoplatform.commons</groupId>
-        <artifactId>commons-api</artifactId>
-      </dependency>    
-      <dependency>
+      <groupId>org.exoplatform.commons</groupId>
+      <artifactId>commons-api</artifactId>
+    </dependency>
+    <dependency>
       <groupId>org.exoplatform.ecms</groupId>
       <artifactId>ecms-apps-gadget-publication</artifactId>
       <type>war</type>
@@ -419,16 +419,16 @@
       <artifactId>platform-extension-portlets-platformNavigation</artifactId>
       <type>pom</type>
     </dependency>
-      <dependency>
-          <groupId>org.exoplatform.platform</groupId>
-          <artifactId>platform-welcome-screens-webapp</artifactId>
-          <type>war</type>
-      </dependency>
-      <dependency>
-          <groupId>org.exoplatform.platform</groupId>
-          <artifactId>platform-welcome-screens-webapp</artifactId>
-          <type>pom</type>
-      </dependency>
+    <dependency>
+      <groupId>org.exoplatform.platform</groupId>
+      <artifactId>platform-welcome-screens-webapp</artifactId>
+      <type>war</type>
+    </dependency>
+    <dependency>
+      <groupId>org.exoplatform.platform</groupId>
+      <artifactId>platform-welcome-screens-webapp</artifactId>
+      <type>pom</type>
+    </dependency>
     <dependency>
       <groupId>org.exoplatform.platform</groupId>
       <artifactId>platform-extension-portlets-homepage</artifactId>
@@ -479,16 +479,16 @@
       <artifactId>platform-sample-acme-intranet-webapp</artifactId>
       <type>pom</type>
     </dependency>
-     <dependency>
-        <groupId>org.exoplatform.platform</groupId>
-        <artifactId>platform-sample-wai-template</artifactId>
-        <type>war</type>
-     </dependency>
-     <dependency>
-        <groupId>org.exoplatform.platform</groupId>
-        <artifactId>platform-sample-wai-template</artifactId>
-        <type>pom</type>
-     </dependency>
+    <dependency>
+      <groupId>org.exoplatform.platform</groupId>
+      <artifactId>platform-sample-wai-template</artifactId>
+      <type>war</type>
+    </dependency>
+    <dependency>
+      <groupId>org.exoplatform.platform</groupId>
+      <artifactId>platform-sample-wai-template</artifactId>
+      <type>pom</type>
+    </dependency>
     <dependency>
       <groupId>org.exoplatform.platform</groupId>
       <artifactId>platform-sample-acme-website-resources</artifactId>
@@ -530,15 +530,15 @@
       <type>pom</type>
     </dependency>
     <dependency>
-       <groupId>org.exoplatform.platform</groupId>
-       <artifactId>platform-component-ide-extension-webapp</artifactId>
-        <type>war</type>
+      <groupId>org.exoplatform.platform</groupId>
+      <artifactId>platform-component-ide-extension-webapp</artifactId>
+      <type>war</type>
     </dependency>
     <dependency>
-        <groupId>org.exoplatform.platform</groupId>
-        <artifactId>platform-component-ide-extension-webapp</artifactId>
-        <type>pom</type>
-     </dependency>
+      <groupId>org.exoplatform.platform</groupId>
+      <artifactId>platform-component-ide-extension-webapp</artifactId>
+      <type>pom</type>
+    </dependency>
     <dependency>
       <groupId>org.exoplatform.platform</groupId>
       <artifactId>platform-server-tomcat-integration-webapp</artifactId>
