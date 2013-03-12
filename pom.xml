@@ -63,6 +63,13 @@
         <type>pom</type>
         <scope>import</scope>
       </dependency>
+      <dependency>
+        <groupId>org.exoplatform.platform</groupId>
+        <artifactId>platform-component-ide-extension</artifactId>
+        <version>${org.exoplatform.platform.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>			
       <!-- Define version for platform-ui artifacts -->
       <dependency>
         <groupId>org.exoplatform.platform-ui</groupId>
