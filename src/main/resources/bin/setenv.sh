@@ -26,7 +26,7 @@
 # 1- uncomment and change value to override settings in the above section
 # 2- use environment properties of the system to override the value
 ########################################
-#EXO_DEBUG=true
+EXO_DEBUG=true
 #EXO_JVM_VENDOR="IBM"
 #EXO_JVM_SIZE_MAX=2g
 #EXO_JVM_SIZE_MIN=1g
