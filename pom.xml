@@ -9,7 +9,7 @@
   </parent>
   <groupId>org.exoplatform.platform.pkg</groupId>
   <artifactId>platform-tomcat-standalone</artifactId>
-  <version>4.0.0-plf-relooking-SNAPSHOT</version>
+  <version>4.0.x-plf-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>eXo Platform Tomcat Standalone Package</name>
   <scm>
@@ -31,19 +31,23 @@
     <!-- Dependencies Versions                    -->
     <!-- **************************************** -->
     <!-- The version of Platform To bundle -->
-    <org.exoplatform.platform.version>4.0.0-relooking-SNAPSHOT</org.exoplatform.platform.version>
+    <org.exoplatform.platform.version>4.0.x-SNAPSHOT</org.exoplatform.platform.version>
     <!-- The apache tomcat version to bundle -->
     <!-- WARNING : It requires a dedicated archive uploaded in eXo repos -->
     <org.apache.tomcat.version>7.0.34</org.apache.tomcat.version>
     <!-- CRaSH -->
     <org.crsh.version>1.1.0</org.crsh.version>
     <!-- SLF4J version to use to wrap all loggers in our product and its dependencies -->
-    <org.slf4j.version>1.7.2</org.slf4j.version>
+    <org.slf4j.version>1.7.5</org.slf4j.version>
     <!-- LOGBACK implementation to use to manage logs -->
-    <ch.qas.logback.version>1.0.9</ch.qas.logback.version>
+    <ch.qas.logback.version>1.0.11</ch.qas.logback.version>
     <!-- Additional LOGBACK dependencies -->
     <org.codehaus.janino.version>2.6.1</org.codehaus.janino.version>
     <org.fusesource.jansi.version>1.9</org.fusesource.jansi.version>
+    
+		<org.exoplatform.gwtframework.version>1.3.x-SNAPSHOT</org.exoplatform.gwtframework.version>
+    <org.exoplatform.ide.version>1.3.x-SNAPSHOT</org.exoplatform.ide.version>
+
   </properties>
   <dependencyManagement>
     <dependencies>
@@ -381,11 +385,13 @@
     <dependency>
       <groupId>org.exoplatform.gwt</groupId>
       <artifactId>exo-gwtframework-smartgwt</artifactId>
+      <version>${org.exoplatform.gwtframework.version}</version>
       <type>war</type>
     </dependency>
     <dependency>
       <groupId>org.exoplatform.ide</groupId>
       <artifactId>exo-ide-client-gadget</artifactId>
+      <version>${org.exoplatform.ide.version}</version>
       <type>war</type>
     </dependency>
     <dependency>
@@ -552,7 +558,7 @@
       <artifactId>platform-sample-gadgets-sample-gadgets</artifactId>
       <type>pom</type>
     </dependency>
-    <dependency>
+    <!-- dependency>
       <groupId>org.exoplatform.platform</groupId>
       <artifactId>platform-component-ide-extension-webapp</artifactId>
       <type>war</type>
@@ -561,15 +567,17 @@
       <groupId>org.exoplatform.platform</groupId>
       <artifactId>platform-component-ide-extension-webapp</artifactId>
       <type>pom</type>
-    </dependency>
+    </dependency -->
     <dependency>
       <groupId>org.exoplatform.platform</groupId>
       <artifactId>platform-server-tomcat-integration-webapp</artifactId>
+      <version>4.0.0-relooking-SNAPSHOT</version>
       <type>war</type>
     </dependency>
     <dependency>
       <groupId>org.exoplatform.platform</groupId>
       <artifactId>platform-server-tomcat-integration-webapp</artifactId>
+      <version>4.0.0-relooking-SNAPSHOT</version>
       <type>pom</type>
     </dependency>
     <!-- This artifact is needed to configure Platform in express/enterprise mode -->
@@ -582,15 +590,18 @@
     <dependency>
       <groupId>org.exoplatform.platform</groupId>
       <artifactId>platform-server-tomcat-pc-creator</artifactId>
+      <version>4.0.0-relooking-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.exoplatform.platform</groupId>
       <artifactId>platform-server-tomcat-root-webapp</artifactId>
+      <version>4.0.0-relooking-SNAPSHOT</version>
       <type>war</type>
     </dependency>
     <dependency>
       <groupId>org.exoplatform.platform</groupId>
       <artifactId>platform-server-tomcat-root-webapp</artifactId>
+      <version>4.0.0-relooking-SNAPSHOT</version>
       <type>pom</type>
     </dependency>
     <!-- org.exoplatform.management.RestManagementProvider used but not declared in GateIn ? -->
