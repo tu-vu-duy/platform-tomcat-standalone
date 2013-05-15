@@ -72,7 +72,7 @@
     <!-- You should set jvmRoute to support load-balancing via AJP ie :
     <Engine name="Standalone" defaultHost="localhost" jvmRoute="jvm1">
     -->
-    <Engine name="Catalina" defaultHost="localhost" jvmRoute="${EXO_TOMCAT_JVMROUTE_NAME}">
+    <Engine name="Catalina" defaultHost="localhost" jvmRoute="${EXO_TOMCAT_JVMROUTE_NAME}" startStopThreads="2">
       <Host name="localhost" appBase="webapps" unpackWARs="true" autoDeploy="true">
         <!-- SingleSignOn valve : Enabled for IDE -->
         <Valve className="org.apache.catalina.authenticator.SingleSignOn"/>
