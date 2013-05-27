@@ -4,7 +4,7 @@
   <parent>
     <artifactId>maven-parent-pom</artifactId>
     <groupId>org.exoplatform</groupId>
-    <version>10</version>
+    <version>11-SNAPSHOT</version>
     <relativePath />
   </parent>
   <groupId>org.exoplatform.platform.pkg</groupId>
@@ -47,6 +47,8 @@
     
 		<org.exoplatform.gwtframework.version>1.3.x-SNAPSHOT</org.exoplatform.gwtframework.version>
     <org.exoplatform.ide.version>1.3.x-SNAPSHOT</org.exoplatform.ide.version>
+    <!-- Subscription agreement -->
+    <subscription-agreement.version>1.0.0</subscription-agreement.version>
 
   </properties>
   <dependencyManagement>
